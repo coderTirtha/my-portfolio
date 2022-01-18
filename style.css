@@ -393,6 +393,7 @@ header .user-menu ul li a:hover {
     justify-content: space-around;
     position: absolute;
     bottom: -0.5rem;
+    z-index: -1;
 }
 
 @keyframes bubble {
