@@ -189,6 +189,10 @@ header .user-menu ul li a:hover {
     padding: 1rem 0;
 }
 
+.typewriter {
+    color: var(--yellow);
+}
+
 .about .row {
     display: flex;
     align-items: center;
