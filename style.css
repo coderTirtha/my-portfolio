@@ -348,6 +348,11 @@ header .user-menu ul li a:hover {
     margin-bottom: 4rem;
 }
 
+.contact .row form #form_alerts {
+    background-color: #74ff74;
+    font-size: 1.5em;
+}
+
 .contact .row form .box {
     padding: 1.5rem;
     margin: 1rem 0;
