@@ -234,6 +234,7 @@
                     $("#form_alerts").html("<div style='padding: 1rem;'>Contact message sent successfully. You will get a mail from us within 24 hours!</div>");
                     $('#name').prop('readonly', true);
                     $('#email').prop('readonly', true);
+                    $('#project').prop('readonly', true);
                     $('#message').prop('readonly', true);
                 })
                 .catch(error => $("#form_alerts").html("<div style='padding: 1rem; background-color: #ff7474;'>Contact message not sent. Please, try again!!!</div>"))
